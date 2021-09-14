@@ -26,6 +26,10 @@ public class Queue {
         return v;
     }
     
+    public int peek() { //returns element of queue but not delete it
+        return values[head];
+    }
+    
     public boolean isEmpty(){
         return elements == 0;
     }
